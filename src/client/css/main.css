@@ -1,10 +1,19 @@
 * {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
 }
 
-html, body {
-    background-color: #222;
+html,body {
+	background: #212121;
+	padding: 20px 50px;
+	margin: 0px;
+	caret-color: #e74c3c;
+}
+ ::selection {
+  background: #e74c3c; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #e74c3c; /* Gecko Browsers */
 }
 
 html, body, canvas {
